@@ -7,7 +7,7 @@ export default {
     ha_is_enabled : T('HA is enabled'),
     ha_status_text_disabled : T('HA Disabled'),
     ha_disabled_reasons : {
-        NO_VOLUME : T('No pools are configured.'),
+        NO_VOLUME : T('please configure new pools.'),
         NO_VIP : T('No interfaces configured with Virtual IP.'),
         NO_SYSTEM_READY : T(`Other ${globalHelptext.ctrlr} has not finished booting.`),
         NO_PONG : T(`Other ${globalHelptext.ctrlr} cannot be reached.`),
@@ -43,7 +43,7 @@ export default {
     },
 
     signupDialog: {
-        title: T('Connect to TrueCommand Cloud'),
+        title: T('Connect to XYZ Cloud'),
         content: T('This allows your TrueNAS system to be monitored and administrated by\
  TrueCommand. Click <b>SIGNUP</b> to create a new TrueCommand Cloud instance or <b>CONNECT</b> to join an existing instance.'),
         singup_btn: T('SIGNUP'),
